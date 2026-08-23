@@ -1,0 +1,15 @@
+# 依赖
+node_modules/
+.wrangler/
+.devstate/
+
+# 环境
+.env*
+!.env.example
+
+# 日志
+logs/
+*.log
+
+# macOS
+.DS_Store
