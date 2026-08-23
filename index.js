@@ -2,12 +2,12 @@
 // 支持：多轮对话、切换模型、清除历史
 // 用法见 DEPLOY.md
 
-// 支持的模型列表
+// 更新后的模型列表 (使用 Cloudflare 目前最稳定的模型)
 const MODELS = {
-  llama:   { id: "@cf/meta-llama/llama-3.8b",       name: "Llama 3.8B",   desc: "均衡强大" },
-  qwen:    { id: "@cf/qwen/qwen-1.5b",              name: "Qwen 1.5B",    desc: "快速轻量" },
-  mistral: { id: "@cf/mistral/mistral-7b-instruct-v0.2", name: "Mistral 7B", desc: "代码优秀" },
-  gemma:   { id: "@cf/google/gemma-2-9b-it-cf",     name: "Gemma 2 9B",   desc: "谷歌开源" },
+  llama:   { id: "@cf/meta/llama-3.1-8b-instruct",      name: "Llama 3.1 8B",   desc: "均衡强大" },
+  qwen:    { id: "@cf/qwen/qwen-1.5b-chat-v0.1",        name: "Qwen 1.5B",    desc: "快速轻量" },
+  mistral: { id: "@cf/mistral/mistral-7b-instruct-v0.1", name: "Mistral 7B", desc: "代码优秀" },
+  gemma:   { id: "@cf/google/gemma-2-9b-it",           name: "Gemma 2 9B",   desc: "谷歌开源" },
 };
 
 const DEFAULT_MODEL = "llama";
