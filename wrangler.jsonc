@@ -1,5 +1,5 @@
 {
-  "$schema": "./node_modules/wrangler/config-schema.json",
+  "$schema": "node_modules/wrangler/config-schema.json",
   "name": "ai-chat-tg",
   "compatibility_date": "2026-03-12",
   "compatibility_flags": ["nodejs_compat"],
@@ -8,5 +8,9 @@
     {
       "binding": "AI_CHAT_KV"
     }
-  ]
+  ],
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 0.1
+  }
 }
