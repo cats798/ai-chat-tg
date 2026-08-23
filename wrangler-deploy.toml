@@ -1,0 +1,6 @@
+name = "ai-chat-tg"
+compatibility_date = "2024-11-15"
+
+[kv]
+[[kv]]
+binding = "AI_CHAT_KV"
