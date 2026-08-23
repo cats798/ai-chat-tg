@@ -1,7 +1,7 @@
 {
   "name": "ai-chat-tg",
-  "main": "index.js",
   "compatibility_date": "2026-03-12",
+  "main": "index.js",
   "kv_namespaces": [
     {
       "binding": "AI_CHAT_KV"
